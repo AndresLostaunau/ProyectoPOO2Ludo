@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Casilla.cpp" "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/ProyectoFinalPOO2.dir/Casilla.cpp.obj"
   "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Dado.cpp" "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/ProyectoFinalPOO2.dir/Dado.cpp.obj"
+  "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Ficha.cpp" "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/ProyectoFinalPOO2.dir/Ficha.cpp.obj"
   "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Juego.cpp" "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/ProyectoFinalPOO2.dir/Juego.cpp.obj"
+  "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Jugador.cpp" "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/ProyectoFinalPOO2.dir/Jugador.cpp.obj"
   "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Tablero.cpp" "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/ProyectoFinalPOO2.dir/Tablero.cpp.obj"
   "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/main.cpp" "C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/ProyectoFinalPOO2.dir/main.cpp.obj"
   )

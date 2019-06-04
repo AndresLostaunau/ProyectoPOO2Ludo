@@ -124,6 +124,33 @@ ProyectoFinalPOO2\fast:
 	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\build
 .PHONY : ProyectoFinalPOO2\fast
 
+Casilla.obj: Casilla.cpp.obj
+
+.PHONY : Casilla.obj
+
+# target to build an object file
+Casilla.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.obj
+.PHONY : Casilla.cpp.obj
+
+Casilla.i: Casilla.cpp.i
+
+.PHONY : Casilla.i
+
+# target to preprocess a source file
+Casilla.cpp.i:
+	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.i
+.PHONY : Casilla.cpp.i
+
+Casilla.s: Casilla.cpp.s
+
+.PHONY : Casilla.s
+
+# target to generate assembly for a file
+Casilla.cpp.s:
+	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.s
+.PHONY : Casilla.cpp.s
+
 Dado.obj: Dado.cpp.obj
 
 .PHONY : Dado.obj
@@ -151,6 +178,33 @@ Dado.cpp.s:
 	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Dado.cpp.s
 .PHONY : Dado.cpp.s
 
+Ficha.obj: Ficha.cpp.obj
+
+.PHONY : Ficha.obj
+
+# target to build an object file
+Ficha.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.obj
+.PHONY : Ficha.cpp.obj
+
+Ficha.i: Ficha.cpp.i
+
+.PHONY : Ficha.i
+
+# target to preprocess a source file
+Ficha.cpp.i:
+	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.i
+.PHONY : Ficha.cpp.i
+
+Ficha.s: Ficha.cpp.s
+
+.PHONY : Ficha.s
+
+# target to generate assembly for a file
+Ficha.cpp.s:
+	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.s
+.PHONY : Ficha.cpp.s
+
 Juego.obj: Juego.cpp.obj
 
 .PHONY : Juego.obj
@@ -177,6 +231,33 @@ Juego.s: Juego.cpp.s
 Juego.cpp.s:
 	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Juego.cpp.s
 .PHONY : Juego.cpp.s
+
+Jugador.obj: Jugador.cpp.obj
+
+.PHONY : Jugador.obj
+
+# target to build an object file
+Jugador.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.obj
+.PHONY : Jugador.cpp.obj
+
+Jugador.i: Jugador.cpp.i
+
+.PHONY : Jugador.i
+
+# target to preprocess a source file
+Jugador.cpp.i:
+	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.i
+.PHONY : Jugador.cpp.i
+
+Jugador.s: Jugador.cpp.s
+
+.PHONY : Jugador.s
+
+# target to generate assembly for a file
+Jugador.cpp.s:
+	$(MAKE) -f CMakeFiles\ProyectoFinalPOO2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.s
+.PHONY : Jugador.cpp.s
 
 Tablero.obj: Tablero.cpp.obj
 
@@ -241,12 +322,21 @@ help:
 	@echo ... ProyectoFinalPOO2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Casilla.obj
+	@echo ... Casilla.i
+	@echo ... Casilla.s
 	@echo ... Dado.obj
 	@echo ... Dado.i
 	@echo ... Dado.s
+	@echo ... Ficha.obj
+	@echo ... Ficha.i
+	@echo ... Ficha.s
 	@echo ... Juego.obj
 	@echo ... Juego.i
 	@echo ... Juego.s
+	@echo ... Jugador.obj
+	@echo ... Jugador.i
+	@echo ... Jugador.s
 	@echo ... Tablero.obj
 	@echo ... Tablero.i
 	@echo ... Tablero.s

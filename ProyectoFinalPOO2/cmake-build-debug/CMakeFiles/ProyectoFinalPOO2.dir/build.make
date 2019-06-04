@@ -134,12 +134,72 @@ CMakeFiles\ProyectoFinalPOO2.dir\Dado.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ProyectoFinalPOO2.dir\Dado.cpp.s /c C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\Dado.cpp
 <<
 
+CMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.obj: CMakeFiles\ProyectoFinalPOO2.dir\flags.make
+CMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.obj: ..\Jugador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProyectoFinalPOO2.dir/Jugador.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1421~1.277\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.obj /FdCMakeFiles\ProyectoFinalPOO2.dir\ /FS -c C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\Jugador.cpp
+<<
+
+CMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoFinalPOO2.dir/Jugador.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1421~1.277\bin\Hostx86\x86\cl.exe > CMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\Jugador.cpp
+<<
+
+CMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoFinalPOO2.dir/Jugador.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1421~1.277\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.s /c C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\Jugador.cpp
+<<
+
+CMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.obj: CMakeFiles\ProyectoFinalPOO2.dir\flags.make
+CMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.obj: ..\Ficha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProyectoFinalPOO2.dir/Ficha.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1421~1.277\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.obj /FdCMakeFiles\ProyectoFinalPOO2.dir\ /FS -c C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\Ficha.cpp
+<<
+
+CMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoFinalPOO2.dir/Ficha.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1421~1.277\bin\Hostx86\x86\cl.exe > CMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\Ficha.cpp
+<<
+
+CMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoFinalPOO2.dir/Ficha.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1421~1.277\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.s /c C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\Ficha.cpp
+<<
+
+CMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.obj: CMakeFiles\ProyectoFinalPOO2.dir\flags.make
+CMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.obj: ..\Casilla.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProyectoFinalPOO2.dir/Casilla.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1421~1.277\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.obj /FdCMakeFiles\ProyectoFinalPOO2.dir\ /FS -c C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\Casilla.cpp
+<<
+
+CMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoFinalPOO2.dir/Casilla.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1421~1.277\bin\Hostx86\x86\cl.exe > CMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\Casilla.cpp
+<<
+
+CMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoFinalPOO2.dir/Casilla.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1421~1.277\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.s /c C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\Casilla.cpp
+<<
+
 # Object files for target ProyectoFinalPOO2
 ProyectoFinalPOO2_OBJECTS = \
 "CMakeFiles\ProyectoFinalPOO2.dir\main.cpp.obj" \
 "CMakeFiles\ProyectoFinalPOO2.dir\Juego.cpp.obj" \
 "CMakeFiles\ProyectoFinalPOO2.dir\Tablero.cpp.obj" \
-"CMakeFiles\ProyectoFinalPOO2.dir\Dado.cpp.obj"
+"CMakeFiles\ProyectoFinalPOO2.dir\Dado.cpp.obj" \
+"CMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.obj" \
+"CMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.obj" \
+"CMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.obj"
 
 # External object files for target ProyectoFinalPOO2
 ProyectoFinalPOO2_EXTERNAL_OBJECTS =
@@ -148,9 +208,12 @@ ProyectoFinalPOO2.exe: CMakeFiles\ProyectoFinalPOO2.dir\main.cpp.obj
 ProyectoFinalPOO2.exe: CMakeFiles\ProyectoFinalPOO2.dir\Juego.cpp.obj
 ProyectoFinalPOO2.exe: CMakeFiles\ProyectoFinalPOO2.dir\Tablero.cpp.obj
 ProyectoFinalPOO2.exe: CMakeFiles\ProyectoFinalPOO2.dir\Dado.cpp.obj
+ProyectoFinalPOO2.exe: CMakeFiles\ProyectoFinalPOO2.dir\Jugador.cpp.obj
+ProyectoFinalPOO2.exe: CMakeFiles\ProyectoFinalPOO2.dir\Ficha.cpp.obj
+ProyectoFinalPOO2.exe: CMakeFiles\ProyectoFinalPOO2.dir\Casilla.cpp.obj
 ProyectoFinalPOO2.exe: CMakeFiles\ProyectoFinalPOO2.dir\build.make
 ProyectoFinalPOO2.exe: CMakeFiles\ProyectoFinalPOO2.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ProyectoFinalPOO2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ProyectoFinalPOO2.exe"
 	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\ProyectoFinalPOO2.dir --manifests  -- C:\PROGRA~2\MICROS~4\2019\PROFES~1\VC\Tools\MSVC\1421~1.277\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\ProyectoFinalPOO2.dir\objects1.rsp @<<
  /out:ProyectoFinalPOO2.exe /implib:ProyectoFinalPOO2.lib /pdb:C:\Users\andres.lostaunau\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\cmake-build-debug\ProyectoFinalPOO2.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

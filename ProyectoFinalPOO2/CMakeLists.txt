@@ -3,4 +3,4 @@ project(ProyectoFinalPOO2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ProyectoFinalPOO2 main.cpp Juego.cpp Tablero.cpp Dado.cpp)
+add_executable(ProyectoFinalPOO2 main.cpp Juego.cpp Tablero.cpp Dado.cpp Jugador.cpp Ficha.cpp Casilla.cpp)

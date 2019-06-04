@@ -82,10 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Casilla.cpp">
+			<Option target="ProyectoFinalPOO2"/>
+		</Unit>
 		<Unit filename="C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Dado.cpp">
 			<Option target="ProyectoFinalPOO2"/>
 		</Unit>
+		<Unit filename="C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Ficha.cpp">
+			<Option target="ProyectoFinalPOO2"/>
+		</Unit>
 		<Unit filename="C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Juego.cpp">
+			<Option target="ProyectoFinalPOO2"/>
+		</Unit>
+		<Unit filename="C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Jugador.cpp">
 			<Option target="ProyectoFinalPOO2"/>
 		</Unit>
 		<Unit filename="C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/Tablero.cpp">
