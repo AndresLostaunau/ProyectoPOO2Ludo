@@ -1,3 +1,0 @@
-C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/ProyectoFinalPOO2.dir
-C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/andres.lostaunau/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

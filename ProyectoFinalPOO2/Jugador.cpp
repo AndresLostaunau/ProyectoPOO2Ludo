@@ -7,6 +7,6 @@ private:
     int color;
 public:
     Jugador(const string &nombre, int color) : nombre(nombre), color(color) {}
-    void jugar(ficha Ficha, int movimientos){}
+    void jugar(Ficha ficha, int movimientos){}
     virtual ~Jugador() {}
 };
