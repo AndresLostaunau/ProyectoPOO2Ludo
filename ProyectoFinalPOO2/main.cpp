@@ -1,6 +1,9 @@
 #include <iostream>
+#include"Juego.cpp"
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+	auto juego = new Juego(3);
+	juego->mostrarJugadores();
+	delete juego;
 }

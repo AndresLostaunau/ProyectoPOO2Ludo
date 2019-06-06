@@ -1,0 +1,3 @@
+C:/Users/Andrés/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/out/build/x64-Debug/CMakeFiles/ProyectoFinalPOO2.dir
+C:/Users/Andrés/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Andrés/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

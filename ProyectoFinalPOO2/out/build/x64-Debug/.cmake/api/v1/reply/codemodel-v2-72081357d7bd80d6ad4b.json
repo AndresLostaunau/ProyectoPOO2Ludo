@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ProyectoFinalPOO2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ProyectoFinalPOO2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProyectoFinalPOO2-Debug-131e35d4fdec8631bd23.json",
+					"name" : "ProyectoFinalPOO2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Andrés/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/out/build/x64-Debug",
+		"source" : "C:/Users/Andrés/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
