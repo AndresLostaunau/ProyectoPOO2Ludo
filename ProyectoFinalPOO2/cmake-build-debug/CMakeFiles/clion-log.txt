@@ -1,41 +1,39 @@
-"C:\Program Files\JetBrains\CLion 2019.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\Andrés\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2
--- The C compiler identification is MSVC 19.20.27508.1
--- The CXX compiler identification is MSVC 19.20.27508.1
--- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.20.27508/bin/Hostx86/x86/cl.exe
--- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.20.27508/bin/Hostx86/x86/cl.exe -- broken
-CMake Error at C:/Program Files/JetBrains/CLion 2019.1.2/bin/cmake/win/share/cmake-3.14/Modules/CMakeTestCCompiler.cmake:60 (message):
-  The C compiler
+C:\Users\massi\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/massi/OneDrive/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2
+-- The C compiler identification is GNU 6.4.0
+-- The CXX compiler identification is GNU 6.4.0
+CMake Warning at /cygdrive/c/Users/massi/.CLion2018.1/system/cygwin_cmake/share/cmake-3.10.2/Modules/Platform/CYGWIN.cmake:15 (message):
+  CMake no longer defines WIN32 on Cygwin!
 
-    "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.20.27508/bin/Hostx86/x86/cl.exe"
+  (1) If you are just trying to build this project, ignore this warning or
+  quiet it by setting CMAKE_LEGACY_CYGWIN_WIN32=0 in your environment or in
+  the CMake cache.  If later configuration or build errors occur then this
+  project may have been written under the assumption that Cygwin is WIN32.
+  In that case, set CMAKE_LEGACY_CYGWIN_WIN32=1 instead.
 
-  is not able to compile a simple test program.
+  (2) If you are developing this project, add the line
 
-  It fails with the following output:
+    set(CMAKE_LEGACY_CYGWIN_WIN32 0) # Remove when CMake >= 2.8.4 is required
 
-    Change Dir: C:/Users/AndrÃ©s/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/CMakeTmp
-    
-    Run Build Command(s):nmake /nologo cmTC_a1cb1\fast 
-    	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_a1cb1.dir\build.make /nologo -L                  CMakeFiles\cmTC_a1cb1.dir\build
-    Building C object CMakeFiles/cmTC_a1cb1.dir/testCCompiler.c.obj
-    	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1420~1.275\bin\Hostx86\x86\cl.exe @C:\Users\ANDRS~1\AppData\Local\Temp\nm279.tmp
-    testCCompiler.c
-    Linking C executable cmTC_a1cb1.exe
-    	"C:\Program Files\JetBrains\CLion 2019.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_a1cb1.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1420~1.275\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_a1cb1.dir\objects1.rsp @C:\Users\ANDRS~1\AppData\Local\Temp\nm2D7.tmp
-    LINK Pass 1: command "C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1420~1.275\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_a1cb1.dir\objects1.rsp /out:cmTC_a1cb1.exe /implib:cmTC_a1cb1.lib /pdb:C:\Users\Andr?s\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_a1cb1.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_a1cb1.dir/intermediate.manifest CMakeFiles\cmTC_a1cb1.dir/manifest.res" failed (exit code 1201) with the following output:
-    LINK : fatal error LNK1201: error al escribir en la base de datos del programa 'C:\Users\Andr?s\Documents\GitHub\ProyectoPOO2Ludo\ProyectoFinalPOO2\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_a1cb1.pdb'; compruebe si tiene suficiente espacio en disco, si la ruta es vÃŸlida o si tiene privilegios suficientes
-    NMAKE : fatal error U1077: '"C:\Program Files\JetBrains\CLion 2019.1.2\bin\cmake\win\bin\cmake.exe"' : cÂ¾digo devuelto '0xffffffff'
-    Stop.
-    NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\bin\HostX86\x86\nmake.exe"' : cÂ¾digo devuelto '0x2'
-    Stop.
-    
-
-  
-
-  CMake will not be able to correctly generate this project.
+  at the top of your top-level CMakeLists.txt file or set the minimum
+  required version of CMake to 2.8.4 or higher.  Then teach your project to
+  build on Cygwin without WIN32.
 Call Stack (most recent call first):
+  /cygdrive/c/Users/massi/.CLion2018.1/system/cygwin_cmake/share/cmake-3.10.2/Modules/CMakeSystemSpecificInformation.cmake:26 (include)
   CMakeLists.txt:2 (project)
 
 
--- Configuring incomplete, errors occurred!
-See also "C:/Users/AndrÃ©s/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "C:/Users/AndrÃ©s/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++.exe
+-- Check for working CXX compiler: /usr/bin/c++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/massi/OneDrive/Documents/GitHub/ProyectoPOO2Ludo/ProyectoFinalPOO2/cmake-build-debug
