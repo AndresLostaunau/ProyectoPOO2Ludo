@@ -1,4 +1,6 @@
 #include<iostream>
+#include<random>
+#include<ctime>
 #include"Dado.cpp"
 #include"Jugador.cpp"
 #include"Tablero.cpp"
@@ -7,25 +9,26 @@ using namespace std;
 class Juego{
 private:
     int turno;
-    int numeroJugardores;
+    int numeroJugadores;
 	Jugador** Jugadores=nullptr;
 public:
 	Juego(int ndeJugadores) {
 		turno = 0;
-		numeroJugardores = ndeJugadores;
-		Jugadores = new Jugador*[numeroJugardores];
+		numeroJugadores = ndeJugadores;
+		Jugadores = new Jugador*[numeroJugadores];
 		asignarJugadores();
+		asignarTurnos();
 	}
 	void asignarJugadores() {
 		Jugador* jugador = nullptr;
 		string nombre;
 		int color;
 		auto coloresDisponibles = new ListaD<int>;
-		for (int i = 0; i < numeroJugardores; i++) {
+		for (int i = 0; i < numeroJugadores; i++) {
 			coloresDisponibles->insert(i);
 		}
 		// Verde = 0, Rojo = 1, Azul = 2, Amarillo = 3
-		for (int i = 0; i < numeroJugardores;i++) {
+		for (int i = 0; i < numeroJugadores;i++) {
 			cout << "Nombre del jugador N°" << i + 1 << ": ";
 			cin >> nombre;
 			cout << "Seleccione un color: \n";
@@ -57,16 +60,45 @@ public:
 			}
 			
 		}
+		delete jugador;
+		delete coloresDisponibles;
 	}
 	void mostrarJugadores() {
-		for (int i = 0; i < numeroJugardores; i++) {
+		for (int i = 0; i < numeroJugadores; i++) {
 			Jugadores[i]->mostrarCaracteristicas();
 		}
 	}
-    void iniciarJuego(){}
+	void asignarTurnos() {
+		cout << "Orden asignado aleatoriamente.\n";
+		Jugador** jAux = new Jugador * [numeroJugadores];
+		int randomizer;
+		srand(time(0));
+		auto rList = new ListaD<int>;
+		for (int i = 0; i < numeroJugadores; i++) {
+			randomizer = rand() % (numeroJugadores);
+			if (!rList->exist(randomizer)) {
+				jAux[i] = Jugadores[randomizer];
+				rList->insert(randomizer);
+			}
+			else {
+				i--;
+			}
+
+		}
+		Jugadores = jAux;
+		delete jAux;
+		delete rList;
+	}
+    void iniciarJuego(){
+		asignarTurnos();
+		while (!validarFinJuego()) {
+			siguienteTurno();
+		}
+		finalizarJuego();
+	}
     void siguienteTurno(){}
     void adicionarJugador(){}
-    void validarFinJuego(){}
+    bool validarFinJuego(){}
     void validarSalidaFicha(){}
     void validarCapturaFicha(){}
     void finalizarJuego(){}
